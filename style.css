@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f3ec;
+  color: #1c2420;
+}
+
+header {
+  background-color: #14453d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+}
+
+.estado {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.estado.abierta {
+  background-color: #dff5e1;
+  color: #1f7a3d;
+}
+
+.estado.cerrada {
+  background-color: #fde2e2;
+  color: #b23a3a;
+}
+
+.estado.sinhorario {
+  background-color: #fff3d6;
+  color: #9c7a1e;
+}
+
+.nota {
+  background-color: #e1edf2;
+  border: 1px solid #bfd8e3;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.ayuda {
+  background-color: #14453d;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.ayuda a {
+  color: #14453d;
+  background-color: white;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 8px;
+}
+
+.gimnacio {
+  background-color: #fbfbf7;
+  border: 1px solid #d8dbce;
+  border-radius: 8px;
+  padding: 18px;
+  margin-bottom: 15px;
+}
+
+.gimnacio h2 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #14453d;
+}
+
+.gimnacio p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.etiqueta {
+  font-weight: bold;
+}
+
+.gimnacio a {
+  color: #2e6e8e;
+}
+
+.boton-mapa {
+  width: 150px;
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #e1edf2;
+  color: #2e6e8e;
+  padding: 8px 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 13px;
+  color: #5b6b62;
+}
+@media screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  header {
+    padding: 15px 10px;
+    border-top: 5px solid #b6e412;
+  }
+
+  header h1 {
+    font-size: 22px;
+  }
+
+  header p {
+    font-size: 13px;
+  }
+
+  .nota,
+  .ayuda,
+  .gimnacio {
+    margin-left: 12px;
+    margin-right: 12px;
+    padding: 14px;
+  }
+
+  .gimnacio h2 {
+    font-size: 17px;
+  }
+
+  .estado {
+    display: inline-block;
+    width: auto;
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+
+  .boton-mapa,
+  .ayuda a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  footer {
+    padding: 15px;
+    font-size: 12px;
+  }
+}
